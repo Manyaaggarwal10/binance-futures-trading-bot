@@ -60,7 +60,7 @@ trading_bot/
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/binance-futures-trading-bot.git
+git clone https://github.com/Manyaaggarwal10/binance-futures-trading-bot.git
 cd binance-futures-trading-bot
 ```
 
@@ -69,16 +69,11 @@ cd binance-futures-trading-bot
 ### Windows
 
 ```bash
-python -m venv venv
-venv\Scripts\activate
+python -m venv binv
+binv\Scripts\activate
 ```
 
-### Mac/Linux
 
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
 
 ## 3. Install Dependencies
 
@@ -91,8 +86,8 @@ pip install -r requirements.txt
 Create a `.env` file in root folder:
 
 ```env
-BINANCE_API_KEY=your_api_key_here
-BINANCE_SECRET_KEY=your_secret_key_here
+BINANCE_API_KEY=api_key
+BINANCE_SECRET_KEY=secret_key
 ```
 
 ---
